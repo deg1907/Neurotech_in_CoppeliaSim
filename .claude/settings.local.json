@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p coppeliasim/scene coppeliasim/scripts coppeliasim/models dataset/generation dataset/images/train dataset/images/val dataset/images/test dataset/labels/train dataset/labels/val dataset/labels/test dataset/yaw_labels models/detector models/yaw_regressor models/weights experiments/results integration dissertation/chapters dissertation/figures dissertation/references)",
+      "Bash(touch coppeliasim/models/.gitkeep models/weights/.gitkeep dataset/images/train/.gitkeep dataset/images/val/.gitkeep dataset/images/test/.gitkeep dataset/labels/train/.gitkeep dataset/labels/val/.gitkeep dataset/labels/test/.gitkeep dataset/yaw_labels/.gitkeep experiments/results/.gitkeep dissertation/chapters/.gitkeep dissertation/figures/.gitkeep dissertation/references/.gitkeep)",
+      "Bash(ls \"C:\\\\Users\\\\deg19\\\\Desktop\\\\dissertation_w_Claude\\\\models\\\\detector\"\" 2>/dev/null || echo \"NOT FOUND \")",
+      "Bash(python train.py --epochs 50 --batch 8)",
+      "Bash(python calc_inertia.py --units m)",
+      "Bash(python -c \"import stl; print\\(dir\\(stl\\)\\)\")",
+      "Bash(python -c \"import numpy_stl; print\\(dir\\(numpy_stl\\)\\)\")",
+      "Bash(python -c \"from stl.mesh import Mesh; print\\('ok'\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python calc_inertia.py Vtulka.stl --density 1538.8 --units m)",
+      "Bash(python -c \"v = 5.848927e-4; print\\(f'density для 0.9 кг при x2: {0.9 / \\(v * 8\\):.2f} кг/м^3'\\)\")",
+      "Bash(python calc_inertia.py gaika.stl Vilka.stl --units m --scene-scale 2.0)",
+      "Bash(python calc_inertia.py Vtulka.stl --units m --scene-scale 2.0 --density 192.34)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

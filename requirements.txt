@@ -1,0 +1,22 @@
+# Зависимости проекта
+
+# Симулятор
+coppeliasim-zmqremoteapi-client  # ZMQ Remote API для CoppeliaSim
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Обработка изображений
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Визуализация и логирование
+matplotlib>=3.7.0
+tensorboard>=2.13.0
+
+# Утилиты
+tqdm>=4.65.0
+PyYAML>=6.0
+scipy>=1.11.0

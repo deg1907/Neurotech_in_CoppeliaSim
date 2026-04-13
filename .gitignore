@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Веса моделей (большие файлы)
+models/weights/*.pt
+models/weights/*.pth
+weights/*.pt
+weights/*.pth
+
+# Датасет (генерируется скриптом)
+dataset/images/train/
+dataset/images/val/
+dataset/images/test/
+dataset/labels/train/
+dataset/labels/val/
+dataset/labels/test/
+dataset/yaw_labels/
+
+# Логи и результаты экспериментов
+experiments/results/*.csv
+experiments/results/*.png
+*.log
+
+# CoppeliaSim временные файлы
+*.bak
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные изображения (проверочные)
+check_*.png
